@@ -52,9 +52,10 @@ fn print_repeat_mydiv(result: Result<Vec<i32>, DivError>) {
     }
 }
 
+#[allow(dead_code)]
 fn print_num(x: i32) {
     println!("input:{}", x);
-    let s = match x {
+    let _s = match x {
         0 => Some("zero"),
         1 | 2 => Some("small"),
         3..=9 => Some("large"),

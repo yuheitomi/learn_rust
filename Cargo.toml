@@ -2,4 +2,5 @@
 members = [
     "oreilly",
     "rust_concept",
+    "minibins",
 ]
